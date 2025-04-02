@@ -1,0 +1,59 @@
+*, ::before, ::after{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: "Roboto", sans-serif;
+    background-color: rgba(136, 20, 55, 1);
+    color: #fff;
+    text-shadow: 2px 1px 1px #333;
+}
+ul, li, a{
+    list-style: none;
+    text-decoration: none;
+}
+.wrapper{
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+    max-width: 1440px;
+    padding-top: .5rem;
+}
+.header a{
+    letter-spacing: .2rem;
+    text-transform: uppercase;
+    color: #fff;
+}
+.nav-container .logo{
+
+}
+.menu-toggle{
+    cursor: pointer;
+    width: 55px;
+    z-index: 3;
+}
+.menu-toggle div{
+    background-color: #ccc;
+    border-radius: 25px;
+    box-shadow: 0 3px 13px rgba(0, 0, 0, .3);
+    height: 7px;
+    transition-duration: .25s;
+    transition-timing-function: cubic-bezier(0.1, 0.25, 0.35, 1.65);
+}
+.main-container{
+    max-width: 1024px;
+    margin: 0;
+    text-align: center;
+}
+.main-container h2{
+    font-size: 5rem;
+    letter-spacing: 1.5px;
+    margin-bottom: 1rem;
+    text-transform: uppercase;
+}
+.main-container p{
+    font-size: 1.3rem;
+    letter-spacing: 1.5px;
+    font-weight: 100;
+}
