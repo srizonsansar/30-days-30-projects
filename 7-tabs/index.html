@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <title>Tab with Data Attributes</title>
+        <meta name="description" content="">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
+        <link rel="stylesheet" href="style.css">
+    </head>
+    <body>
+        <h1>Photo of the Year</h1>
+        <img class="random-img" src="https://picsum.photos/1200/800" alt="Photo">
+        <main>
+            <div class="tabs-container">
+                <button class="btn active" data-id="Photographer">Photographer</button>
+                <button class="btn" data-id="Camera-Gear">Camera Gear</button>
+                <button class="btn" data-id="Location">Location</button>
+            </div>
+            <div class="tabs-content">
+                <div class="content active" id="Photographer">
+                    <h4>Photographer</h4>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Optio rem et cum deserunt incidunt. Perferendis debitis quae sit maiores fugit mollitia, delectus sapiente nihil ullam animi repellendus harum rem? Fugiat?</p>
+                </div>
+                <div class="content" id="Camera-Gear">
+                    <h4>Camera Gear</h4>
+                    <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Ratione dolores corrupti voluptas, porro impedit earum! Pariatur perspiciatis odit recusandae exercitationem labore ea, culpa explicabo aperiam doloremque debitis excepturi atque tempore?</p>
+                </div>
+                <div class="content" id="Location">
+                    <h4>Location</h4>
+                    <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Non ipsum recusandae quia, modi excepturi accusamus. Sequi impedit aut exercitationem quasi voluptates porro accusamus, minima qui nisi itaque! Temporibus, debitis dolorem.</p>
+                </div>
+            </div>
+        </main>
+        <script src="script.js" async defer></script>
+    </body>
+</html>
